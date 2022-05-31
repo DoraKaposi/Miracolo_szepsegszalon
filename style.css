@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+  }
+
+
+header{
+    height: 25rem;
+    background-image: url(mainBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 45%;
+    margin-bottom: 2rem;
+}
+
+h1,h3,h4{
+    text-align: center;
+}
+
+.cardBox img{
+    width: auto;
+    border-radius: 250px;
+    text-align: center;
+    margin: auto;
+}
+.card{
+    border: 0px;
+}
+.pHighlighted{
+    font-size: 36px;
+    font-weight: bold;
+}
+.socialIcons{
+    text-align: center;
+    padding: 0;
+}
+.socialIcons li{
+    display: inline;
+    padding: 5px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+.mainImg {
+    width: 100%;
+    border-radius: 10px;
+    /*margin-bottom: 15px;*/
+}
+
+.profileImg{
+    height: 70%;
+    border-radius: 50%;
+    /*margin-left: auto 0px;*/
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.bg-dark {
+    opacity: 80%;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    text-align: right;
+}
+td{
+    text-align: left;
+}
+
+.hero-image {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+  
+.hero-text {
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  video { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+article{
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+.fooldal--margin-top{
+    margin-top: 10vh;
+}
+
+.kapcsolat--margin-top{
+    margin-top: 20vh;  
+}
+.margin-top{
+    margin-top: 5vh;
+}
+
+@media (max-width:768px){
+    .fooldal--margin-top{
+        margin-top: 0;
+    }
+    .kapcsolat--margin-top{
+        margin-top: 0vh;  
+    }
+    
+    .margin-top{
+        margin-top: 5vh;
+    }
+    
+}
+
+@media(max-width:992){
+    .kapcsolat--margin-top{
+        margin-top: 0vh;  
+    }
+}
+.accordion-item{
+    width: 95%;
+    margin: auto;
+}
+.table{
+    width: 90%;
+}
+iframe{
+    width: auto;
+    height: 100vh;
+    margin: auto;
+}
+  footer{
+      display: block;
+      text-align: center;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      height: 2rem;
+      margin-top: 1rem;
+      padding: 5px;
+  }
+  .footer-text{
+      float: left;
+  }
+
+  footer img{
+      width: 20px;
+  }
+  footer a{
+      color: white;
+      text-decoration: none;
+  }
+  footer a:hover, footera:visited{
+    color: white;
+    text-decoration: underline;
+}
